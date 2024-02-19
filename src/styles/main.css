@@ -18,7 +18,11 @@ body {
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 16px;
+}
+
+a:visited {
+    color: var(--black);
 }
 
 /* Button search */
@@ -40,4 +44,28 @@ body {
     content: "";
     background-image: url('../img/icons/search.svg');
     fill: var(--black);
+}
+
+/* Text */
+
+.title {
+    color: var(--red);
+    font-size: 22px;
+    line-height: calc(28/22);
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: calc(24/16);
+}
+
+h3 {
+    font-size: 16px;
+    line-height: calc(24/16);
+    font-weight: 700;
+}
+
+.home-p{
+    margin-bottom: 32px;
 }

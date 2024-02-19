@@ -5,11 +5,6 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
+    margin-bottom: 16px;
 }
 
-.title {
-    color: var(--red);
-    font-size: 22px;
-    line-height: calc(28/22);
-    font-weight: 700;
-}
