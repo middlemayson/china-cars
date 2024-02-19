@@ -1,0 +1,43 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --black: #000;
+    --red: #C6061F;
+    --bg: #F4EFE9;
+    --mainColor: #EDE6DE;
+    --gray: #49454F;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Button search */
+
+.btn-search {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+}
+
+.btn-search::after {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    height: 18px;
+    width: 18px;
+    content: "";
+    background-image: url('../img/icons/search.svg');
+    fill: var(--black);
+}
