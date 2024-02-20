@@ -1,3 +1,5 @@
+// import { useParams } from "react-router-dom";
+
 import Card from "../../components/cards/Card";
 
 import geelyLogo from '../../img/logo/company/Geely.png';
