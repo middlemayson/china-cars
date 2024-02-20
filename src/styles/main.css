@@ -27,7 +27,7 @@ a:visited {
 
 /* Button search */
 
-.btn-search {
+.btn-circle {
     height: 48px;
     width: 48px;
     position: relative;
@@ -35,7 +35,7 @@ a:visited {
     border-radius: 50%;
 }
 
-.btn-search::after {
+.search-icon::after {
     position: absolute;
     right: 14px;
     bottom: 14px;
@@ -44,6 +44,37 @@ a:visited {
     content: "";
     background-image: url('../img/icons/search.svg');
     fill: var(--black);
+}
+
+.back-icon::after {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    height: 16px;
+    width: 16px;
+    content: "";
+    background-image: url('../img/icons/back.svg');
+    fill: var(--black);
+}
+
+/* Button */
+
+.btn {
+    
+    text-align: center;
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    color: var(--black);
+}
+
+.btn-red {
+    background-color: var(--red);
+    color: var(--white)!important;
 }
 
 /* Text */

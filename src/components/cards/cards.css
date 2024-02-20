@@ -16,6 +16,11 @@
     align-items: center;
     border-radius: 16px;
     background-color: var(--mainColor);
+    transition: .3s;
+}
+
+.card:hover {
+    background-color: var(--bg);
 }
 
 .card__title {
