@@ -33,3 +33,77 @@
 .brand__text-red {
     margin-bottom: 32px;
 }
+
+/* Style card in brands */
+
+.card__brand-block {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.card__brand {
+    position: relative;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background-color: var(--mainColor);
+    transition: .3s;
+}
+
+.card__brand__title {
+    font-size: 16px;
+    line-height: calc(24/16);
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+.card__brand__muted {
+    font-size: 16px;
+}
+
+.card__brand__img {
+    margin-bottom: 32px;
+    border-radius: 8px;
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__brand__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.card__brand__imgLogo {
+    max-width: 30%;
+    padding: 0 16px;
+}
+
+.card__brand__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 16px;
+    align-items: left;
+    text-align: left;
+}
+
+.card__brand__btn-sector {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    justify-content: center;
+}

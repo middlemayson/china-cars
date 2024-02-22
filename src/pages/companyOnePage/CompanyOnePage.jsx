@@ -21,16 +21,29 @@ const CompanyOnePage = () => {
                 <img src={company.photo} alt={company.title} className="brandPhoto" />
                 <p className="brand__text">{company.desc}</p>
                 <h1 className="title">Бренды:</h1>
-                
-                {company.brands.map((brand, index) => (
-                        <div key={index} className="brand">
-                            <img src={brand.imgLogo} alt={brand.title} className="brand-logo" />
-                            <h2 className="brand-title">{brand.title}</h2>
-                            <p>{brand.desc}</p>
-                            <a href={brand.linkDetails}>Подробнее</a>
+                <div className="card__brand-block">
+                    {company.brands.map((brand, index) => (
+                        <div key={index} className="card__brand">
+                        <img className="card__brand__img" src={brand.imgCar} alt={brand.title} />
+                        <div className="card__brand__body">
+                            <img className='card__brand__imgLogo' src={brand.imgLogo} alt={brand.title} />
+                            <div className="card__brand__text">
+                                <div className="card__brand__title">
+                                    {brand.title}
+                                </div>
+                                <div className="card__brand__muted">
+                                    {brand.desc}
+                                </div>
+                            </div>
+                            
                         </div>
+                        <div className="card__brand__btn-sector">
+                            {brand.linkDetails && ( <a href={brand.linkDetails} className="btn">Подробнее</a>)}
+                            {brand.linkDiller && (<a href={brand.linkDiller} className="btn btn-red">Диллер в РК</a>)}
+                            </div>
+                    </div>
                     ))}
-                
+                </div>
             </div>
         </section>
     );
