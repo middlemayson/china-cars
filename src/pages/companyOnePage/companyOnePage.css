@@ -1,0 +1,35 @@
+
+
+.brand__nav {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.brand__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.brand__title__img {
+    max-width: 20%;
+}
+
+.brandPhoto {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.brand__text {
+    margin-bottom: 32px;
+}
+
+.brand__text-red {
+    margin-bottom: 32px;
+}

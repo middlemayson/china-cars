@@ -26,3 +26,25 @@
                             <a href={linkDiller} className="btn btn-red">Диллер в РК</a>
                     </div>
             </div>
+
+            Это структура одной компании
+
+            <section className="company-element">
+            <div className="container">
+                
+                <div className="brand__title">
+                    <img className="brand__title__img" src={logo} alt="" />
+                    <h1 className="title">{title}</h1>
+                </div>
+                <img src={photo} alt="" className="brandPhoto" />
+                <p className="brand__text">{desc}</p>
+            </div>
+            
+        </section>
+
+        Это кнопка назад
+
+        <div className="brand__nav">
+                <button className="btn-circle back-icon"></button>
+                <p>Вернуться на главную</p>
+            </div>

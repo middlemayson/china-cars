@@ -21,7 +21,7 @@ body {
     padding: 0 16px;
 }
 
-a:visited {
+a:visited, a:link {
     color: var(--black);
 }
 

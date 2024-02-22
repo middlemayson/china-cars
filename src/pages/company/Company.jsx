@@ -1,23 +1,25 @@
-import '../brand/brands.css';
+
 import './companyList';
+import { NavLink } from 'react-router-dom';
+import './company.css';
 
-import logo from '../../img/logo/company/Geely.png';
-import photo from '../../img/photo/Aston_Martin_DBS.jpg';
-
-
-const Company = () => {
+const Company = ({title, logo, index}) => {
     return (
         <section className="company-element">
-            <div className="container">
-                
-                <div className="brand__title">
-                    <img className="brand__title__img" src={logo} alt="" />
-                    <h1 className="title">Zhejiang Geely Holding Group</h1>
+            <NavLink to={`/${index}`}>
+            <div className="card">
+            <img className="card__img" src={logo} alt={title} />
+                    <div className="card__body">
+                        <div className="card__text">
+                            <div className="card__title">
+                                {title}
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
-                <img src={photo} alt="" className="brandPhoto" />
-                <p className="brand__text">«Чжэцзян Цзили Холдинг Груп»</p>
-            </div>
-            
+            </NavLink>
         </section>
     );
 }
