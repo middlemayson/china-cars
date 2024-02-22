@@ -1,7 +1,8 @@
 import './brands.css';
+import '../company/companyList';
 
-const Brand = (props) => {
-    const {title,desc,imgCar,imgLogo,linkDiller,linkDetails} = props;
+const Brand = ({title, desc, imgCar, imgLogo, linkDiller, linkDetails}) => {
+    
 
         return (
             

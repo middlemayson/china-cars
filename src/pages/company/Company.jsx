@@ -13,7 +13,6 @@ const Company = ({title, logo, index}) => {
                         <div className="card__text">
                             <div className="card__title">
                                 {title}
-                                
                             </div>
                             
                         </div>

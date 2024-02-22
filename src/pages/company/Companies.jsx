@@ -1,4 +1,3 @@
-// import { NavLink } from "react-router-dom";
 import {companyList} from './companyList';
 import Company from './Company';
 
