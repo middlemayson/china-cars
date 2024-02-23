@@ -1,5 +1,3 @@
-
-
 import ImgLogoCompanies from '../../components/imgList/ImgLogoCompanies';
 import ImgPhotoCompanies from '../../components/imgList/ImgPhotoCompanies';
 import ImgLogoBrands from '../../components/imgList/ImgLogoBrands';
@@ -113,12 +111,45 @@ const companyList = [
         Название FAW расшифровывается как First Automobile Works (Первый автомобильный завод)`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'FAW',
+                desc: 'Под своим брендом производят коммерческий и легковой транспорт.',
+                linkDiller: 'https://www.faw-kaz.kz/ru/cars',
+                linkDetails: 'https://ru.wikipedia.org/wiki/First_Automotive_Works',
+                imgLogo: ImgLogoCompanies.imgLogoFaw,
+                imgCar: ImgPhotoBrands.imgPhotoFaw
+            },
+            {
+                title: 'FAW-Volkswagen',
+                desc: 'Совместное предприятие FAW Group и Volkswagen Group , которое производит легковые автомобили марок Audi и Volkswagen для продажи в Китае. В том числе под маркой Jetta.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/FAW-Volkswagen',
+                imgLogo: ImgLogoBrands.imgLogoFawVw,
+                imgCar: ImgPhotoBrands.imgPhotoFawJetta
+            },
+            {
+                title: 'Hongqi',
+                desc: 'Марка автомобилей класса люкс, принадлежащая автопроизводителю FAW Group. Компания Hongqi была запущена в 1958 году. Первые модели делали на базе Chrysler Imperial, Ауди 100, Линкольна. Читается «Хончи», в переводе с китайского - «Красное знамя».',
+                linkDiller: 'https://hongqi-auto.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Hongqi',
+                imgLogo: ImgLogoBrands.imgLogoHongqi,
+                imgCar: ImgPhotoBrands.imgPhotoHongqi
+            },
+            {
+                title: 'Jiefang',
+                desc: 'Крупнейший производитель тяжелых грузовиков в Китае. Основана в 2003 году и насчитывает более 22 000 сотрудников, производящих более 500 различных моделей грузовиков грузоподъемностью 5–30 тонн.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/FAW_Jiefang',
+                imgLogo: ImgLogoBrands.imgLogoJiefang,
+                imgCar: ImgPhotoBrands.imgPhotoJiefang
+            }
+            ,
+            {
+                title: 'Bestune',
+                desc: 'Первой моделью компании в 2006 году стала Besturn B70 на базе Mazda 6. В 2023 году АВТОВАЗ планировал выпускать модель Bestune T77 под маркой Lada X-Cross 5',
+                linkDiller: 'https://bestune.kz/',
+                linkDetails: 'https://en.wikipedia.org/wiki/FAW_Jiefang',
+                imgLogo: ImgLogoBrands.imgLogoJBestune,
+                imgCar: ImgPhotoBrands.imgPhotoBestune
             }
         ],
         ident: 1
@@ -131,12 +162,93 @@ const companyList = [
         по величине производителем авто в Китае. DongFeng («ДунФэн») в переводе с китайского означает «Восточный ветер».`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Dongfeng',
+                desc: 'Автомобили выпускаемые под брендом Dongfeng.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Dongfeng',
+                imgLogo: ImgLogoCompanies.imgLogoDfm,
+                imgCar: ImgPhotoBrands.imgPhotoDf
+            },
+            {
+                title: 'Forthing',
+                desc: 'Производит легковые автомобили и минивэны. Первый автомобиль бренда появился в 2001 году под названием «Fengxing».',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Forthing',
+                imgLogo: ImgLogoBrands.imgLogoForthing,
+                imgCar: ImgPhotoBrands.imgPhotoForthing
+            },
+            {
+                title: 'Aeolus',
+                desc: 'Бренд был запущен в июле 2009 года под названием Fengshen, а позже был переименован в Aeolus в качестве английского названия, тогда как китайское название осталось прежним. Производит легковые автомобили.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Aeolus_(marque)',
+                imgLogo: ImgLogoBrands.imgLogoAeolus,
+                imgCar: ImgPhotoBrands.imgPhotoAeolus
+            },
+            {
+                title: 'Voyah',
+                desc: 'Премиальное подразделение, а также одноимённая серия электромобилей. Базируется на выпуске гибридных и аккумуляторных электромобилей. Основан в 2020 году.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Voyah',
+                imgLogo: ImgLogoBrands.imgLogoVoyah,
+                imgCar: ImgPhotoBrands.imgPhotoVoyah
+            },
+            {
+                title: 'Mengshi',
+                desc: 'Семейство военных внедорожников с колёсной формулой 4×4, разработанных компанией Dongfeng Motor Corpartion. Первые поколения автомобиля были построены на импортном шасси Hummer H1.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Dongfeng_Mengshi',
+                imgLogo: ImgLogoBrands.imgLogoMengshi,
+                imgCar: ImgPhotoBrands.imgPhotoMengshi
+            },
+            {
+                title: 'Dongfeng Honda',
+                desc: 'Совместное предприятие между Dongfeng и Honda, основанное в июле 2003 года. Компания продаёт автомобили под марками Honda и Ciimo.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Dongfeng_Honda',
+                imgLogo: ImgLogoBrands.imgLogoHonda,
+                imgCar: ImgPhotoBrands.imgPhotoDFHonda
+            },
+            {
+                title: 'Dongfeng Nissan',
+                desc: 'Совместное предприятие между Dongfeng Motor Group и Nissan Motors.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Dongfeng_Nissan',
+                imgLogo: ImgLogoBrands.imgLogoNissan,
+                imgCar: ImgPhotoBrands.imgPhotoDFNissan
+            },
+            {
+                title: 'Venucia',
+                desc: 'Подразделение компаний Dongfeng и Nissan, основанное в сентябре 2010 года.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Venucia',
+                imgLogo: ImgLogoBrands.imgLogoVenucia,
+                imgCar: ImgPhotoBrands.imgPhotoDFVenucia
+            },
+            {
+                title: 'Dongfeng Fengdu',
+                desc: 'Бренд Fengdu запущен во время Шанхайского автосалона 2013 года, является суббрендом Zhengzhou Nissan, дочерней компании Dongfeng Automobile.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Dongfeng_Fengdu',
+                imgLogo: ImgLogoCompanies.imgLogoDfm,
+                imgCar: ImgPhotoBrands.imgPhotoDFFengdu
+            },
+            {
+                title: 'Dongfeng Peugeot-Citroën',
+                desc: 'Совместное предприятие Dongfeng Motor Corporation и Stellantis (известному как PSA Peugeot Citroën). Компания расположена в Ухане, столице провинции Хубэй и производит модели Peugeot и Citroën для продажи в Китае.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Dongfeng_Peugeot-Citro%C3%ABn',
+                imgLogo: ImgLogoBrands.imgLogoPeugeotCitroën,
+                imgCar: ImgPhotoBrands.imgPhotoPeugeotCitroën
+            },
+            {
+                title: 'Dongfeng Junfeng',
+                desc: 'Бренд компании Zhengzhou Nissan Automobile, дочерней компанией Dongfeng Motor.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Dongfeng_Peugeot-Citro%C3%ABn',
+                imgLogo: ImgLogoBrands.imgLogoJunfeng,
+                imgCar: ImgPhotoBrands.imgPhotoPeugeotJunfeng
+
             }
         ],
         ident: 2

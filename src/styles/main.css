@@ -4,6 +4,7 @@
 :root {
     --black: #000;
     --red: #C6061F;
+    --redHover: #d82b42;
     --bg: #F4EFE9;
     --mainColor: #EDE6DE;
     --gray: #49454F;
@@ -22,7 +23,12 @@ body {
 }
 
 a:visited, a:link {
+    transition: .3s;
     color: var(--black);
+}
+
+a:visited:hover, a:link:hover {
+    color: var(--gray);
 }
 
 /* Button search */
@@ -31,8 +37,13 @@ a:visited, a:link {
     height: 48px;
     width: 48px;
     position: relative;
-    background-color: var(--mainColor);
     border-radius: 50%;
+    transition: .3s;
+    background-color: var(--mainColor);
+}
+
+.btn-circle:hover {
+    background-color: var(--white);
 }
 
 .search-icon::after {
@@ -68,13 +79,24 @@ a:visited, a:link {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s;
     background-color: var(--bg);
     color: var(--black);
+}
+
+.btn:hover {
+    
+    background-color: var(--white);
+    
 }
 
 .btn-red {
     background-color: var(--red);
     color: var(--white)!important;
+}
+
+.btn-red:hover {
+    background-color: var(--redHover);
 }
 
 /* Text */
@@ -100,3 +122,4 @@ h3 {
 .home-p{
     margin-bottom: 32px;
 }
+

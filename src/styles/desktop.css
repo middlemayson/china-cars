@@ -1,0 +1,49 @@
+@media only screen and (min-width:700px) {
+    .card__brand-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card__brand {
+        width: calc(50% - 12px);
+    }
+
+    .card__brand__img {
+        max-height: 300px;
+    }
+    
+    .company-element {
+        width: calc(100% / 3 - 12px);
+    }
+
+    .company__about {
+        display: flex;
+        gap: 32px;
+    }
+
+    .brandPhoto {
+        width: 50%;
+        border-radius: 16px;
+        margin-bottom: 32px;
+        max-height: 250px;
+        object-fit: cover;
+        min-width: 350px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    
+    .company-element {
+        width: calc(100% / 4 - 12px);
+    }
+
+    .brandPhoto {
+        min-width: 550px;
+        max-height: 300px;
+    }
+
+    .brand__title__img {
+        max-width: 10%;
+    }
+}

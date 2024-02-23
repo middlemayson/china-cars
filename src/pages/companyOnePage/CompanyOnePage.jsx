@@ -18,8 +18,10 @@ const CompanyOnePage = () => {
                     <img className="brand__title__img" src={company.logo} alt={company.title} />
                     <h1 className="title">{company.title}</h1>
                 </div>
-                <img src={company.photo} alt={company.title} className="brandPhoto" />
-                <p className="brand__text">{company.desc}</p>
+                <div className="company__about">
+                    <img src={company.photo} alt={company.title} className="brandPhoto" />
+                    <p className="brand__text">{company.desc}</p>
+                </div>
                 <h1 className="title">Бренды:</h1>
                 <div className="card__brand-block">
                     {company.brands.map((brand, index) => (
@@ -38,8 +40,8 @@ const CompanyOnePage = () => {
                             
                         </div>
                         <div className="card__brand__btn-sector">
-                            {brand.linkDetails && ( <a href={brand.linkDetails} className="btn">Подробнее</a>)}
-                            {brand.linkDiller && (<a href={brand.linkDiller} className="btn btn-red">Диллер в РК</a>)}
+                            {brand.linkDetails && ( <a href={brand.linkDetails} className="btn" target="_blank" rel="noreferrer" >Подробнее</a>)}
+                            {brand.linkDiller && (<a href={brand.linkDiller} className="btn btn-red" target="_blank" rel="noreferrer" >Диллер в РК</a>)}
                             </div>
                     </div>
                     ))}

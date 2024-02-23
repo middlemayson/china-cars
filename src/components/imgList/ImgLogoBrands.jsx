@@ -20,6 +20,21 @@ import imgLogoSunwin from '../../img/logo/brands/Sunwin_logo.png';
 import imgLogoTank from '../../img/logo/brands/tank_logo.png';
 import imgLogoWey from '../../img/logo/brands/WEY_logo.png';
 
+import imgLogoHongqi from '../../img/logo/brands/Hongqi-Logo.png';
+import imgLogoFawVw from '../../img/logo/brands/fawvw_logo.png';
+import imgLogoJiefang from '../../img/logo/brands/FAW_Jiefang_logo.png';
+import imgLogoJBestune from '../../img/logo/brands/bestune_logo.png';
+import imgLogoForthing from '../../img/logo/brands/Forthing-Logo.png';
+import imgLogoAeolus from '../../img/logo/brands/Aeolus_logo-removebg-preview.png';
+import imgLogoVoyah from '../../img/logo/brands/voyah-logo.png';
+import imgLogoMengshi from '../../img/logo/brands/Mengshi_logo.png';
+import imgLogoHonda from '../../img/logo/brands/DfHonda_logo.png';
+import imgLogoNissan from '../../img/logo/brands/DF_nissan_logo.png';
+import imgLogoVenucia from '../../img/logo/brands/Venucia_logo.png';
+import imgLogoPeugeotCitroën from '../../img/logo/brands/Dongfeng_Peugeot-Citroën_logo.png';
+import imgLogoJunfeng from '../../img/logo/brands/junfeng.png';
+
+
 
 const ImgLogoBrands = {
     imgLogoAstonMartin,
@@ -42,7 +57,20 @@ const ImgLogoBrands = {
     imgLogoSehol,
     imgLogoSunwin,
     imgLogoTank,
-    imgLogoWey
+    imgLogoWey,
+    imgLogoHongqi,
+    imgLogoFawVw,
+    imgLogoJiefang,
+    imgLogoJBestune,
+    imgLogoForthing,
+    imgLogoAeolus,
+    imgLogoVoyah,
+    imgLogoMengshi,
+    imgLogoHonda,
+    imgLogoNissan,
+    imgLogoVenucia,
+    imgLogoPeugeotCitroën,
+    imgLogoJunfeng
 }
 
 export default ImgLogoBrands;

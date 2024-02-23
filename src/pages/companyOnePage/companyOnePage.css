@@ -1,11 +1,13 @@
-
-
 .brand__nav {
     margin-bottom: 32px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 16px;
+}
+
+.brand__nav:hover .btn-circle{
+    background-color: var(--white);
 }
 
 .brand__title {
