@@ -164,7 +164,7 @@ const companyList = [
             {
                 title: 'Dongfeng',
                 desc: 'Автомобили выпускаемые под брендом Dongfeng.',
-                
+                linkDiller: 'https://virazh.kz/dongfeng/',
                 linkDetails: 'https://ru.wikipedia.org/wiki/Dongfeng',
                 imgLogo: ImgLogoCompanies.imgLogoDfm,
                 imgCar: ImgPhotoBrands.imgPhotoDf
@@ -261,12 +261,60 @@ const companyList = [
          В настоящее время занимает четвертое место в Китае по производству автомобилей.`,
          brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Changan',
+                desc: 'Бренд для легковых автомобилей. Слово «Changan» состоит из двух китайских иероглифов: «Chang» (长) и «an» (安), в совокупности переводящихся как «надёжность, проверенная временем». В соответствии с правилами китайско-русской транскрипции, по-русски это название читается «Чанъань», однако чаще произносят в английском прочтении "Ченгэ́н". Так же есть альтернативная форма прочтения "Чангáн".',
+                linkDiller: 'https://changan-auto.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Changan',
+                imgLogo: ImgLogoCompanies.imgLogoChangan,
+                imgCar: ImgPhotoBrands.imgPhotoChangan
+            },
+            {
+                title: 'Oshan',
+                desc: 'Марка легковых автомобилей компании Changan Automobile. Название бренда «Oshan» было вдохновлено одной из моделей MPV Oushang.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Oshan_(marque)',
+                imgLogo: ImgLogoBrands.imgLogoOshan,
+                imgCar: ImgPhotoBrands.imgPhotoOshan
+            },
+            {
+                title: 'Deepal',
+                desc: 'Известен под названием Shenlan. Компания по производству электромобилей, принадлежащая Changan Automobile. Первоначально компания носила название Chongqing Changan New Energy Automobile Technology и была основана в 2018 году, а с 2023 года стала независимым брендом.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Deepal',
+                imgLogo: ImgLogoBrands.imgLogoDeepal,
+                imgCar: ImgPhotoBrands.imgPhotoDeepal
+            },
+            {
+                title: 'Kaicene',
+                desc: 'Марка легковых автомобилей. Копию модели Changan Kaicene F70 производит Peugeot под моделью Landtrek.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Changan_Automobile#Brands_and_products',
+                imgLogo: ImgLogoCompanies.imgLogoChangan,
+                imgCar: ImgPhotoBrands.imgPhotoKaicene
+            },
+            {
+                title: 'Avatr Technology',
+                desc: 'Премиальное подразделение Changan, а также одноимённая серия электромобилей данной торговой марки. Базируется на выпуске аккумуляторных электромобилей. Она принадлежит совместному предприятию Changan, CATL и Huawei. В Казахстан официально не поставляется.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Avatr_Technology',
+                imgLogo: ImgLogoBrands.imgLogoAvatr,
+                imgCar: ImgPhotoBrands.imgPhotoAvatr
+            },
+            {
+                title: 'Changan Mazda',
+                desc: 'Совместное предприятие Changan и Mazda, основанное в декабре 2012 года. Основной деятельностью компании является производство автомобилей Mazda для китайского рынка.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Changan_Mazda',
+                imgLogo: ImgLogoBrands.imgLogoMazda,
+                imgCar: ImgPhotoBrands.imgPhotoMazda
+            },
+            {
+                title: 'Changan Ford',
+                desc: 'Совместное предприятие Changan и Ford (50 на 50), основанное в 2012 году. Выпускает автомобили Ford и Lincoln для рынка Китая.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Changan_Ford',
+                imgLogo: ImgLogoBrands.imgLogoFord,
+                imgCar: ImgPhotoBrands.imgPhotoFord
             }
         ],
         ident: 3
@@ -279,12 +327,140 @@ const companyList = [
         В списке крупнейших компаний мира Fortune Global 500 за 2022 год заняла 229-е место. Владельцем группы является китайский миллиардер Ли Шуфу.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Geely Automobile',
+                desc: 'Бренд по производству автомобилей. Производственные мощности Geely насчитывают 11 заводов, способных в сумме выпускать 1,95 млн автомобилей в год. Все они расположены в Китае.',
+                linkDiller: 'https://geely.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Zeekr',
+                imgLogo: ImgLogoBrands.imgLogoGeely,
+                imgCar: ImgPhotoBrands.imgPhotoGeely
+            },
+            {
+                title: 'Aston Martin',
+                desc: 'В сентябре 2022 года Geely приобрела 7,6% акций Aston Martin. В мае 2023 года Geely увеличила свою долю до 17%.',
+
+                linkDetails: 'https://en.wikipedia.org/wiki/Geely#International_investments_and_holdings',
+                imgLogo: ImgLogoBrands.imgLogoAstonMartin,
+                imgCar: ImgPhotoBrands.imgPhotoAstonMartin
+            },
+            {
+                title: 'Mercedes-Benz Group',
+                desc: 'Основатель и председатель правления Geely, приобрел 9,69% акций Mercedes-Benz Group в феврале 2018 года, став крупнейшим акционером компании.',
+                linkDiller: 'https://mercedes-benz.com.kz/',
+                linkDetails: 'https://en.wikipedia.org/wiki/Geely#International_investments_and_holdings',
+                imgLogo: ImgLogoBrands.imgLogoMB,
+                imgCar: ImgPhotoBrands.imgPhotoMB
+            },
+            {
+                title: 'Volvo Cars',
+                desc: 'C 2010 года компания принадлежит холдингу Geely.',
+
+                linkDetails: 'https://ru.wikipedia.org/wiki/Volvo_Cars',
+                imgLogo: ImgLogoBrands.imgLogoVolvo,
+                imgCar: ImgPhotoBrands.imgPhotoVolvo
+            },
+            {
+                title: 'Renault Korea Motors',
+                desc: 'Контрольный пакет акций (52,9%) компании принадлежит французской Renault а 34% принадлежат китайской Geely. Остальные 13,1% Samsung. Выпускают автомобили под маркой Renault Samsung.',
+
+                linkDetails: 'https://ru.wikipedia.org/wiki/Renault_Korea_Motors',
+                imgLogo: ImgLogoBrands.imgLogoRenaultKorea,
+                imgCar: ImgPhotoBrands.imgPhotoRenaultKorea
+            },
+            {
+                title: 'Lotus Cars',
+                desc: 'В октябре 2017 года 51% акций компании Lotus Cars приобрёл китайский концерн Zhejiang Geely Holding Group',
+
+                linkDetails: 'https://ru.wikipedia.org/wiki/Renault_Korea_Motors',
+                imgLogo: ImgLogoBrands.imgLogoLotus,
+                imgCar: ImgPhotoBrands.imgPhotoLotus
+            },
+            {
+                title: 'Zeekr',
+                desc: 'Премиальное подразделение китайской компании Zhejiang Geely Holding Group, а также одноимённая серия электромобилей данной торговой марки. Основана в марте 2021 года. По одной версии, название бренда произошло от поколения Z и понятия geek, по другой - первые две буквы названия Zeekr образованы от слов «zero emission» («нулевой выброс»), в третьей букве зашифровано послание Electric-Evolution-Era, а окончание «kr» — это обозначение криптона, благородного газа без цвета, вкуса и запаха, название которого с греческого языка переводится как «скрытый» или «секретный».',
+                linkDiller: 'https://official.zeekr-kostanay.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Zeekr',
+                imgLogo: ImgLogoBrands.imgLogoZeekr,
+                imgCar: ImgPhotoBrands.imgPhotoZeekr
+            },
+            {
+                title: 'Smart',
+                desc: 'Марка автомобилей особо малого класса, выпускаемых одноимённой компанией, принадлежащей совместному предприятию Mercedes-Benz Group и Zhejiang Geely Holding Group.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Smart_(%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%80%D0%BA%D0%B0)',
+                imgLogo: ImgLogoBrands.imgLogoSmart,
+                imgCar: ImgPhotoBrands.imgPhotoSmart
+            },
+            {
+                title: 'Proton Edar Sdr Holding',
+                desc: 'Крупнейший малайзийский национальный производитель автомобилей. Изначально модели создавались путём модернизации автомобилей Mitsubishi. Со второй половины 1990-х годов компания разрабатывает и оригинальные модели. 49,9% принадлежит Zhejiang Geely Holding Group и 50,1% — DRB-Hicom, а управляется Geely Auto Group.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Proton_Edar_Sdr_Holding',
+                imgLogo: ImgLogoBrands.imgLogoProton,
+                imgCar: ImgPhotoBrands.imgPhotoProton
+            },
+            {
+                title: 'Livan Automotive',
+                desc: 'Совместное предприятие китайских компаний Geely и Lifan.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Livan_Automotive',
+                imgLogo: ImgLogoBrands.imgLogoLivan,
+                imgCar: ImgPhotoBrands.imgPhotoLivan
+            },
+            {
+                title: 'Lynk & Co',
+                desc: 'Китайско-шведский автомобильный бренд на базе технологий, разработанных совместно Volvo Cars и Geely Auto. Основан в Гётеборге в 2016 году.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Lynk_%26_Co',
+                imgLogo: ImgLogoBrands.imgLogoLynk,
+                imgCar: ImgPhotoBrands.imgPhotoLynk
+            },
+            {
+                title: 'London Electric Vehicle Company',
+                desc: 'Британский производитель электромобилей со штаб-квартирой в Ансти близ Ковентри (Англия), стопроцентное дочернее предприятие китайского автопроизводителя Geely. Компания занимается производством знаменитых лондонских такси черного цвета.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/London_Electric_Vehicle_Company',
+                imgLogo: ImgLogoBrands.imgLogoLEVC,
+                imgCar: ImgPhotoBrands.imgPhotoLEVC
+            },
+            {
+                title: 'Polestar',
+                desc: 'Шведский автомобильный бренд, основанный в 1996 году как Flash Engineering. Позже компания была переименована в Polestar Racing, а затем приобретена в 2015 году компанией Volvo Cars, которую в свою очередь приобрела Geely.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/London_Electric_Vehicle_Company',
+                imgLogo: ImgLogoBrands.imgLogoPolestar,
+                imgCar: ImgPhotoBrands.imgPhotoPolestar
+            },
+            {
+                title: 'Farizon',
+                desc: 'Бренд занимающийся выпуском коммерческого транспорта.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Geely#Farizon',
+                imgLogo: ImgLogoBrands.imgLogoFarizon,
+                imgCar: ImgPhotoBrands.imgPhotoFarizon
+            },
+            {
+                title: 'Ji Yue / Jidu Auto',
+                desc: 'Совместное предприятие между Geely и Baidu. Основано в марте 2021 года.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Jidu_Auto',
+                imgLogo: ImgLogoBrands.imgLogoJidu,
+                imgCar: ImgPhotoBrands.imgPhotoJidu
+            },
+            {
+                title: 'Geely Geometry',
+                desc: 'Подразделение Geely, а также одноимённая серия электромобилей данной торговой марки, основанная в апреле 2019 года.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Geely_Geometry',
+                imgLogo: ImgLogoBrands.imgLogoGeometry,
+                imgCar: ImgPhotoBrands.imgPhotoGeometry
+            },
+            {
+                title: 'Radar',
+                desc: 'Бренд пикапов Geely, название которого означает Rational, Alone, Discovery, Accompany и Romantic.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Geely_Galaxy',
+                imgLogo: ImgLogoBrands.imgLogoRadar,
+                imgCar: ImgPhotoBrands.imgPhotoRadar
             }
         ],
         ident: 4

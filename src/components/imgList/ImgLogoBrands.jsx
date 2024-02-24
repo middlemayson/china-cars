@@ -33,6 +33,27 @@ import imgLogoNissan from '../../img/logo/brands/DF_nissan_logo.png';
 import imgLogoVenucia from '../../img/logo/brands/Venucia_logo.png';
 import imgLogoPeugeotCitroën from '../../img/logo/brands/Dongfeng_Peugeot-Citroën_logo.png';
 import imgLogoJunfeng from '../../img/logo/brands/junfeng.png';
+import imgLogoOshan from '../../img/logo/brands/Oshan_logo.png';
+import imgLogoDeepal from '../../img/logo/brands/Deepal_Logo.png';
+import imgLogoAvatr from '../../img/logo/brands/Avatr_Technology_Logo.png';
+import imgLogoMazda from '../../img/logo/brands/Mazda_Logo.png';
+import imgLogoFord from '../../img/logo/brands/Ford_logo.png';
+import imgLogoGeely from '../../img/logo/brands/Geely_Auto_logo.png';
+import imgLogoMB from '../../img/logo/brands/Mercedes-Benz_Group_black.png';
+import imgLogoRenaultKorea from '../../img/logo/brands/Renault_Korea_Motors.png';
+import imgLogoLotus from '../../img/logo/brands/Lotus_Cars_logo.png';
+import imgLogoZeekr from '../../img/logo/brands/Zeekr_logo.png';
+import imgLogoSmart from '../../img/logo/brands/Smart_logo.png';
+import imgLogoProton from '../../img/logo/brands/Proton_Logo.png';
+import imgLogoLivan from '../../img/logo/brands/Livian_Automotive_Logo.png';
+import imgLogoLynk from '../../img/logo/brands/Lynk_&_Co_logo.png';
+import imgLogoLEVC from '../../img/logo/brands/london-ev-company-logo.png';
+import imgLogoPolestar from '../../img/logo/brands/Polestar_Logo.png';
+import imgLogoFarizon from '../../img/logo/brands/Farizon_logo.png';
+import imgLogoJidu from '../../img/logo/brands/Pixel-J_logo.png';
+import imgLogoGeometry from '../../img/logo/brands/Geometry_logo.png';
+import imgLogoRadar from '../../img/logo/brands/radar_logo.png';
+import imgLogoVolvo from '../../img/logo/brands/Volvo-logo.png';
 
 
 
@@ -70,7 +91,28 @@ const ImgLogoBrands = {
     imgLogoNissan,
     imgLogoVenucia,
     imgLogoPeugeotCitroën,
-    imgLogoJunfeng
+    imgLogoJunfeng,
+    imgLogoOshan,
+    imgLogoDeepal,
+    imgLogoAvatr,
+    imgLogoMazda,
+    imgLogoFord,
+    imgLogoGeely,
+    imgLogoMB,
+    imgLogoRenaultKorea,
+    imgLogoLotus,
+    imgLogoZeekr,
+    imgLogoSmart,
+    imgLogoProton,
+    imgLogoLivan,
+    imgLogoLynk,
+    imgLogoLEVC,
+    imgLogoPolestar,
+    imgLogoFarizon,
+    imgLogoJidu,
+    imgLogoGeometry,
+    imgLogoRadar,
+    imgLogoVolvo
 }
 
 export default ImgLogoBrands;

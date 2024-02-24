@@ -24,8 +24,8 @@ const CompanyOnePage = () => {
                 </div>
                 <h1 className="title">Бренды:</h1>
                 <div className="card__brand-block">
-                    {company.brands.map((brand, index) => (
-                        <div key={index} className="card__brand">
+                {company.brands.sort((a, b) => a.title.localeCompare(b.title)).map((brand, index) => (
+                    <div key={index} className="card__brand">
                         <img className="card__brand__img" src={brand.imgCar} alt={brand.title} />
                         <div className="card__brand__body">
                             <img className='card__brand__imgLogo' src={brand.imgLogo} alt={brand.title} />
@@ -37,14 +37,13 @@ const CompanyOnePage = () => {
                                     {brand.desc}
                                 </div>
                             </div>
-                            
                         </div>
                         <div className="card__brand__btn-sector">
                             {brand.linkDetails && ( <a href={brand.linkDetails} className="btn" target="_blank" rel="noreferrer" >Подробнее</a>)}
                             {brand.linkDiller && (<a href={brand.linkDiller} className="btn btn-red" target="_blank" rel="noreferrer" >Диллер в РК</a>)}
-                            </div>
+                        </div>
                     </div>
-                    ))}
+                ))}
                 </div>
             </div>
         </section>

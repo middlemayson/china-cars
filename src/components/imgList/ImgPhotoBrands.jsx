@@ -36,7 +36,29 @@ import imgPhotoDFVenucia from '../../img/photo/cars/Venucia_V-Online_IMG003.jpg'
 import imgPhotoDFFengdu from '../../img/photo/cars/-Fengdu_MX3.jpg';
 import imgPhotoPeugeotCitroën from '../../img/photo/cars/Citroen crossover.jpg';
 import imgPhotoPeugeotJunfeng from '../../img/photo/cars/Junfeng_CV03,_front_8.3.18.jpg';
-
+import imgPhotoOshan from '../../img/photo/cars/Oshan_Z6_009.jpg';
+import imgPhotoDeepal from '../../img/photo/cars/Deepal_Shenlan_S7.jpg';
+import imgPhotoAvatr from '../../img/photo/cars/AVATR_11_003.jpg';
+import imgPhotoMazda from '../../img/photo/cars/Mazda_CX-50.jpg';
+import imgPhotoFord from '../../img/photo/cars/Ford_Escort_2021MY_facelift_IMG001.jpg';
+import imgPhotoChangan from '../../img/photo/cars/Changan_UNI-K_001.jpg';
+import imgPhotoKaicene from '../../img/photo/cars/Kaicene.jpg';
+import imgPhotoGeely from '../../img/photo/cars/Geely_Emgrand_IV_004.jpg';
+import imgPhotoMB from '../../img/photo/cars/Mercedes-Benz_W223_IMG_3951.jpg';
+import imgPhotoRenaultKorea from '../../img/photo/cars/Renault_samsung_sm6_fl_1.jpg';
+import imgPhotoLotus from '../../img/photo/cars/Lotus_Evija.jpg';
+import imgPhotoZeekr from '../../img/photo/cars/zeekr-z-sport.jpg';
+import imgPhotoSmart from '../../img/photo/cars/Smart_1_001.jpg';
+import imgPhotoProton from '../../img/photo/cars/Proton_X50_1.5_TGDi_Flagship_(front_view).png';
+import imgPhotoLivan from '../../img/photo/cars/Livan_9_01_China_2023-04-23.jpg';
+import imgPhotoLynk from '../../img/photo/cars/lynk_co_03_2_1000.jpg';
+import imgPhotoLEVC from '../../img/photo/cars/LEVC_TX_Vista_Comfort_Plus_1.5.jpg';
+import imgPhotoPolestar from '../../img/photo/cars/Polestar_4_002.jpg';
+import imgPhotoFarizon from '../../img/photo/cars/Farizon_Xingxiang_005.jpg';
+import imgPhotoJidu from '../../img/photo/cars/Jidu_Robo-01_001.jpg';
+import imgPhotoGeometry from '../../img/photo/cars/Geometry_A_Pro_001.jpg';
+import imgPhotoRadar from '../../img/photo/cars/Radar_RD6_(front).jpg';
+import imgPhotoVolvo from '../../img/photo/cars/Volvo XC90.jpg';
 
 const ImgPhotoBrands = {
     imgPhotoAstonMartin,
@@ -75,7 +97,30 @@ const ImgPhotoBrands = {
     imgPhotoDFVenucia,
     imgPhotoDFFengdu,
     imgPhotoPeugeotCitroën,
-    imgPhotoPeugeotJunfeng
+    imgPhotoPeugeotJunfeng,
+    imgPhotoOshan,
+    imgPhotoDeepal,
+    imgPhotoAvatr,
+    imgPhotoMazda,
+    imgPhotoFord,
+    imgPhotoChangan,
+    imgPhotoKaicene,
+    imgPhotoGeely,
+    imgPhotoMB,
+    imgPhotoRenaultKorea,
+    imgPhotoLotus,
+    imgPhotoZeekr,
+    imgPhotoSmart,
+    imgPhotoProton,
+    imgPhotoLivan,
+    imgPhotoLynk,
+    imgPhotoLEVC,
+    imgPhotoPolestar,
+    imgPhotoFarizon,
+    imgPhotoJidu,
+    imgPhotoGeometry,
+    imgPhotoRadar,
+    imgPhotoVolvo
 }
 
 export default ImgPhotoBrands;
