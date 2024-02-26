@@ -31,6 +31,10 @@ a:visited:hover, a:link:hover {
     color: var(--gray);
 }
 
+.display_none {
+    display: none;
+}
+
 /* Button search */
 
 .btn-circle {

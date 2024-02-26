@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="header-row">
                     <NavLink to="/"><h1 className="title">Автомобили Китая</h1></NavLink>
                     
-                    <button className="btn-circle search-icon"></button>
+                    <button className="display_none btn-circle search-icon"></button>
                 </div>
             </div>
         </header>
