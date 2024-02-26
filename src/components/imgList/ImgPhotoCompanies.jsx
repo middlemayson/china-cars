@@ -5,7 +5,7 @@ import imgPhotoGWM from '../../img/photo/company/gwm.jpg';
 import imgPhotoBaic from '../../img/photo/company/baic.jpg';
 import imgPhotoByd from '../../img/photo/company/byd.jpg';
 import imgPhotoDfm from '../../img/photo/company/dongfeng.jpg';
-import imgPhotoFaw from '../../img/photo/company/faw.jpg';
+import imgPhotoFaw from './../../img/photo/company/faw.jpg';
 import imgPhotoGac from '../../img/photo/company/GAC Group.jpg';
 import imgPhotoZx from '../../img/photo/company/zx.jpg';
 import imgPhotoYutong from '../../img/photo/company/Yutong.jpg';
