@@ -40,7 +40,7 @@ const CompanyOnePage = () => {
                         </div>
                         <div className="card__brand__btn-sector">
                             {brand.linkDetails && ( <a href={brand.linkDetails} className="btn" target="_blank" rel="noreferrer" >Подробнее</a>)}
-                            {brand.linkDiller && (<a href={brand.linkDiller} className="btn btn-red" target="_blank" rel="noreferrer" >Диллер в РК</a>)}
+                            {brand.linkDiller && (<a href={brand.linkDiller} className="btn btn-red" target="_blank" rel="noreferrer" >Диллер в Казахстане</a>)}
                         </div>
                     </div>
                 ))}

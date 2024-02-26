@@ -474,12 +474,76 @@ const companyList = [
         что соответствует транскрипции «Ци Жуй».`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Exeed',
+                desc: 'Автомобильное подразделение внедорожников премиум-класса, представленное Chery Automobile в сентябре 2017 года.',
+                linkDiller: 'https://exeed.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Exeed',
+                imgLogo: ImgLogoBrands.imgLogoExeed,
+                imgCar: ImgPhotoBrands.imgPhotoExeed
+            },
+            {
+                title: 'Omoda',
+                desc: 'Подразделение Chery, основанное в 2022 году. На многих рынках автомобили продаются под названием Chery, а на некоторых рынках Omoda позиционируется как премиальное подразделение. В иерархии бренд расположен между Chery и Exeed. Буква «О» в слове «Omoda» происходит от обозначения кислорода, а «Moda» означает «современный».',
+                linkDiller: 'https://omoda-auto.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Omoda',
+                imgLogo: ImgLogoBrands.imgLogoOmoda,
+                imgCar: ImgPhotoBrands.imgPhotoOmoda
+            },
+            {
+                title: 'Jetour',
+                desc: 'Отдельный бренд Chery созданный в январе 2018 года. Название бренда состоит из комбинации английских слов JET («реактивный самолет») и TOUR («путешествие»).',
+                linkDiller: 'https://jetour-auto.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Jetour',
+                imgLogo: ImgLogoBrands.imgLogoJetour,
+                imgCar: ImgPhotoBrands.imgPhotoJetour
+            },
+            {
+                title: 'Cowin',
+                desc: 'Cowin Auto (официальное наименование Yibin Kaiyi (Cowin) Automobile) - подразделение Chery, основанное в 2014 году. В январе 2024 года Kaiyi (Cowin) запустила продажи автомобилей на маркетплейсе Ozon.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Kaiyi',
+                imgLogo: ImgLogoBrands.imgLogoCowin,
+                imgCar: ImgPhotoBrands.imgPhotoCowin
+            },
+            {
+                title: 'Karry',
+                desc: 'Подразделение Chery, основанное в 2009 году и специализирующиеся на производстве легких коммерческих автомобилей и легковых автомобилей для пассажирских перевозок.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Karry',
+                imgLogo: ImgLogoBrands.imgLogoKarry,
+                imgCar: ImgPhotoBrands.imgPhotoKarry
+            },
+            {
+                title: 'Qoros',
+                desc: 'Была основана как совместное предприятие Chery и Israel Corporation в декабре 2007 года под названием Chery Quantum Automotive Corporation (CQAC). В ноябре 2011 года название было изменено на Qoros Auto Co., Ltd. В декабре 2017 года Baoneng Group приобрела 51 процент акций Qoros за 6,6 млрд юаней.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Qoros',
+                imgLogo: ImgLogoBrands.imgLogoQoros,
+                imgCar: ImgPhotoBrands.imgPhotoQoros
+            },
+            {
+                title: 'Chery Jaguar Land Rover',
+                desc: 'Автомобильная производственная компания со штаб-квартирой в Чаншу, Китай. Совместное предприятие 50/50 между компанией Jaguar Land Rover. Создана для того, чтобы разрешить производство автомобилей Jaguar Cars и Land Rover в материковом Китае.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/Chery_Jaguar_Land_Rover',
+                imgLogo: ImgLogoBrands.imgLogoCheryJagLand,
+                imgCar: ImgPhotoBrands.imgPhotoCheryJagLand
+            },
+            {
+                title: 'Chery',
+                desc: 'Бренд для выпуска автомобилей от компании Chery Automobile',
+                linkDiller: 'https://chery-kostanay.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Chery_Automobile',
+                imgLogo: ImgLogoCompanies.imgLogoChery,
+                imgCar: ImgPhotoBrands.imgPhotoChery
+            },
+            {
+                title: 'Jaecoo',
+                desc: 'Подразделение Chery Automobile. Предназначается для экспорта внедорожников и кроссоверов в Европу, Россию, Малайзию, на Ближний Восток (в том числе Казахстан) и Южную Африку. Название произошло от немецкого слова Jäger (охотник) и английского Cool.',
+                linkDiller: 'https://jaecoo-auto.kz/index.html',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Jaecoo',
+                imgLogo: ImgLogoBrands.imgLogoJaecoo,
+                imgCar: ImgPhotoBrands.imgPhotoJaecoo
             }
         ],
         ident: 5
@@ -492,12 +556,20 @@ const companyList = [
         Компания находится в Хэфэе, провинция Аньхой, Китай.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Sehol',
+                desc: 'Бренд, запущенный 24 апреля 2018 года компаниями SEAT и JAC Volkswagen Automotive.',
+
+                linkDetails: 'https://ru.wikipedia.org/wiki/Sehol',
+                imgLogo: ImgLogoBrands.imgLogoSehol,
+                imgCar: ImgPhotoBrands.imgPhotoSehol
+            },
+            {
+                title: 'JAC',
+                desc: 'Бренд для выпуска автомобилей от компании JAC Motors. Выпускает автомобили, грузовики, автобусы, погрузчики. Сотрудничает с итальянскими, иранскими, с, российскими и казахстанскими компаниями. В России выпускается под брендом Москвич.',
+                linkDiller: 'https://allur.kz/jac/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/JAC_Motors',
+                imgLogo: ImgLogoBrands.imgLogoJac,
+                imgCar: ImgPhotoBrands.imgPhotoJac
             }
         ],
         ident: 6
@@ -510,12 +582,44 @@ const companyList = [
         производителем автомобилей в Китае с объемом продаж 1,281 миллиона в 2021 году.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Wey',
+                desc: 'Автомобильная марка, принадлежащая Great Wall Motors. Запущенный в 2016 году бренд сосредоточился на кроссоверах и внедорожниках премиум-класса на базе моделей Haval.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Wey_(%D0%BC%D0%B0%D1%80%D0%BA%D0%B0)',
+                imgLogo: ImgLogoBrands.imgLogoWey,
+                imgCar: ImgPhotoBrands.imgPhotoWey
+            },
+            {
+                title: 'Ora',
+                desc: 'Марка легковых электромобилей компании Great Wall Motors, представленная в 2018 году. Ora означает «открытый, надежный и альтернативный», а также отдает дань уважения Леонарду Эйлеру, известному математику.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Ora_(%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%80%D0%BA%D0%B0)',
+                imgLogo: ImgLogoBrands.imgLogoOra,
+                imgCar: ImgPhotoBrands.imgPhotoOra
+            },
+            {
+                title: 'Tank',
+                desc: 'Автомобильный бренд, подразделение компании Great Wall Motors, которое специализируется на внедорожниках .',
+                linkDiller: 'https://tank.com.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Tank_(%D0%BC%D0%B0%D1%80%D0%BA%D0%B0)',
+                imgLogo: ImgLogoBrands.imgLogoTank,
+                imgCar: ImgPhotoBrands.imgPhotoTank
+            },
+            {
+                title: 'Haval',
+                desc: 'Автомобильный бренд, основан в 2013 году, подразделение компании Great Wall Motors по производству кроссоверов и внедорожников.',
+                linkDiller: 'https://haval-kostanay.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Haval',
+                imgLogo: ImgLogoBrands.imgLogoHaval,
+                imgCar: ImgPhotoBrands.imgPhotoHaval
+            },
+            {
+                title: 'Great Wall',
+                desc: 'Автомобильный бренд, основан в 2013 году, подразделение компании Great Wall Motors по производству кроссоверов и внедорожников.',
+                linkDiller: 'https://haval-kostanay.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Haval',
+                imgLogo: ImgLogoBrands.imgLogoGw,
+                imgCar: ImgPhotoBrands.imgPhotoGw
             }
         ],
         ident: 7
@@ -528,12 +632,52 @@ const companyList = [
         Основана в 1958 году и является шестым по величине производителем автомобилей в Китае с объемом продаж 1,723 миллиона в 2021 году.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Beiqi Foton Motor',
+                desc: 'Китайская государственная автомобилестроительная компания, основанная в 1996 году путём слияния около 100 других компаний из 13 провинций КНР. Компания производит легковые автомобили, внедорожники, микроавтобусы, большие городские автобусы, электробусы, грузовые автомобили, двигатели, тракторы, сельскохозяйственную технику под брендами Auman, Auv, Ollin и другими. Foton является дочерней компанией BAIC Group.',
+                linkDiller: 'https://foton-motors.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Beiqi_Foton_Motor',
+                imgLogo: ImgLogoBrands.imgLogoFoton,
+                imgCar: ImgPhotoBrands.imgPhotoFoton
+            },
+            {
+                title: 'Beijing Hyundai',
+                desc: 'Автомобилестроительная компания со штаб-квартирой в Шуньи и совместное предприятие Beijing Automobile Works и Hyundai. Основана 18 октября 2002 года. Компания выпускает автомобили Hyundai для китайского рынка.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Beijing_Hyundai',
+                imgLogo: ImgLogoBrands.imgLogoHyundai,
+                imgCar: ImgPhotoBrands.imgPhotoHyundai
+            },
+            {
+                title: 'Beijing Benz',
+                desc: 'Автомобилестроительная компания со штаб-квартирой в Пекине и совместное предприятие Beijing Automobile Works и Mercedes-Benz. Компания выпускает автомобили Mercedes-Benz для китайского рынка.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Beijing_Benz',
+                imgLogo: ImgLogoBrands.imgLogoBeijingBenz,
+                imgCar: ImgPhotoBrands.imgPhotoBeijingBenz
+            },
+            {
+                title: 'Beijing (BAIC Motor)',
+                desc: 'Дочерняя компания BAIC Group, в 2010—2020 годах выпускавшая автомобили под брендом Senova, с 2013 года внедорожники BJ, с 2020 года перевела модельный ряд под исторический бренд Beijing, который перешёл к ней от компании BAW.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/BAIC_Motor',
+                imgLogo: ImgLogoBrands.imgLogoBeijing,
+                imgCar: ImgPhotoBrands.imgPhotoBeijing
+            },
+            {
+                title: 'Arcfox',
+                desc: 'Производитель электромобилей, базирующийся в Пекине и действующий с 2017 года. Принадлежит компании BAIC.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/BAIC_Motor',
+                imgLogo: ImgLogoBrands.imgLogoArcfox,
+                imgCar: ImgPhotoBrands.imgPhotoArcfox
+            },
+            {
+                title: 'Changhe',
+                desc: 'Официальное название Jiangxi Changhe Automobile Co Ltd, — китайский производитель автомобилей, базирующийся в Цзиндэчжэне, провинция Цзянси, Китай.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/BAIC_Motor',
+                imgLogo: ImgLogoBrands.imgLogoChanghe,
+                imgCar: ImgPhotoBrands.imgPhotoChanghe
             }
         ],
         ident: 8
@@ -548,12 +692,36 @@ const companyList = [
         в алфавитном порядке на выставках. Сейчас компания расшифровывает название как Build Your Dreams - «построй свои мечты».`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Yangwang',
+                desc: 'Подразделение BYD Auto, а также одноимённая серия электромобилей данной торговой марки. Базируется на выпуске гибридных и аккумуляторных электромобилей.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Yangwang',
+                imgLogo: ImgLogoBrands.imgLogoYangwang,
+                imgCar: ImgPhotoBrands.imgPhotoYangwang
+            },
+            {
+                title: 'Fangchengbao',
+                desc: 'Подразделение BYD Auto по производству внедорожников.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Fangchengbao',
+                imgLogo: ImgLogoBrands.imgLogoFangchengbao,
+                imgCar: ImgPhotoBrands.imgPhotoFangchengbao
+            },
+            {
+                title: 'Denza',
+                desc: 'Подразделение BYD Auto, являющееся совместным предприятием между BYD и Mercedes-Benz Group. Специализируется на выпуске люксовых электромобилей.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Denza',
+                imgLogo: ImgLogoBrands.imgLogoDenza,
+                imgCar: ImgPhotoBrands.imgPhotoDenza
+            },
+            {
+                title: 'BYD Auto',
+                desc: 'Автомобильная дочерняя компания BYD Company. Компания производит пассажирские электромобили, гибридные электромобили, электрические автобусы и грузовики.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/BYD_Auto',
+                imgLogo: ImgLogoBrands.imgLogoByd,
+                imgCar: ImgPhotoBrands.imgPhotoByd
             }
         ],
         ident: 9
@@ -566,12 +734,52 @@ const companyList = [
         Основан в 1954 году и в настоящее время является пятым по величине производителем автомобилей в Китае с объемом продаж 2,144 миллиона в 2021 году.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'GAC Hino',
+                desc: 'Совместное предприятие Hino и GAC , целью которого является производство грузовых автомобилей на базе Hino.',
+                linkDiller: 'https://hino-trucks.kz/',
+                linkDetails: 'https://en.wikipedia.org/wiki/GAC_Hino',
+                imgLogo: ImgLogoBrands.imgLogoGACHino,
+                imgCar: ImgPhotoBrands.imgPhotoGACHino
+            },
+            {
+                title: 'GAC Toyota',
+                desc: 'Совместное предприятие GAC Group и Toyota, выпускающее автомобили Toyota для китайского рынка. Основано 1 сентября 2004 года.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/GAC_Toyota',
+                imgLogo: ImgLogoBrands.imgLogoGACToyota,
+                imgCar: ImgPhotoBrands.imgPhotoGACToyota
+            },
+            {
+                title: 'GAC Honda',
+                desc: 'Совместное предприятие GAC Group и Honda, выпускающее автомобили для китайского рынка.',
+                
+                linkDetails: 'https://en.wikipedia.org/wiki/GAC_Honda',
+                imgLogo: ImgLogoBrands.imgLogoGACHonda,
+                imgCar: ImgPhotoBrands.imgPhotoGACHonda
+            },
+            {
+                title: 'Trumpchi',
+                desc: 'Марка автомобилей, принадлежащая компании GAC Group. Основана в декабре 2010 года.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Trumpchi',
+                imgLogo: ImgLogoBrands.imgLogoTrumpchi,
+                imgCar: ImgPhotoBrands.imgPhotoTrumpchi
+            },
+            {
+                title: 'GAC',
+                desc: 'Бренд для экспортных автомобилей GAC Group.',
+                linkDiller: 'https://gacmotor.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/GAC_Group',
+                imgLogo: ImgLogoBrands.imgLogoGAC,
+                imgCar: ImgPhotoBrands.imgPhotoGAC
+            },
+            {
+                title: 'GAC Aion',
+                desc: 'Марка электромобилей GAC Group.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Aion_(%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%80%D0%BA%D0%B0)',
+                imgLogo: ImgLogoBrands.imgLogoGACAion,
+                imgCar: ImgPhotoBrands.imgPhotoGACAion
             }
         ],
         ident: 10
@@ -584,12 +792,12 @@ const companyList = [
         По состоянию на 2016 год был крупнейший производитель автобусов в мире по объему продаж.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Yutong',
+                desc: 'Производитель коммерческого транспорта: автобусов и электробусов.',
+                linkDiller: 'https://www.yutong.com.kz/',
+                linkDetails: 'https://ru.wikipedia.org/wiki/Yutong',
+                imgLogo: ImgLogoCompanies.imgLogoYutong,
+                imgCar: ImgPhotoBrands.imgPhotoYutong
             }
         ],
         ident: 11
@@ -602,12 +810,11 @@ const companyList = [
         в Юго-Восточную Азию, в Африку, а также в Центральную и Южную Америку.`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoBrands.imgLogoIm,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+              title: 'ZX',
+              desc: 'Автопроизводитель пикапов',
+              linkDetails: 'https://ru.wikipedia.org/wiki/ZX_Auto',
+              imgLogo: ImgLogoCompanies.imgLogoZx,
+              imgCar: ImgPhotoBrands.imgPhotoZX
             }
         ],
         ident: 12
@@ -620,12 +827,12 @@ const companyList = [
         С китайского 理想 переводится как идеал`,
         brands: [
             {
-              title: 'Aston Martin',
-              desc: '17% акций компании',
-              linkDiller: '#!',
-              linkDetails: '#!',
-              imgLogo: ImgLogoCompanies.imgLogoLi,
-              imgCar: ImgPhotoCompanies.imgPhotoSaic
+                title: 'Li',
+                desc: 'Производитель электромобилей. Также известен как Li Xiang.',
+                
+                linkDetails: 'https://ru.wikipedia.org/wiki/Li_Auto',
+                imgLogo: ImgLogoCompanies.imgLogoLi,
+                imgCar: ImgPhotoBrands.imgPhotoLi
             }
         ],
         ident: 13
