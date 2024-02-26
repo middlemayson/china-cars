@@ -4,10 +4,16 @@
     flex-direction: row;
     align-items: center;
     gap: 16px;
+    border-radius: 16px;
+    background-color: var(--lightGray);
+    justify-content: flex-start;
+    max-width: 260px;
+    height: 48px;
 }
 
-.brand__nav:hover .btn-circle{
+.brand__nav:hover {
     background-color: var(--white);
+    
 }
 
 .brand__title {
@@ -20,6 +26,7 @@
 
 .brand__title__img {
     max-width: 20%;
+    max-height: 60px;
 }
 
 .brandPhoto {
@@ -58,6 +65,7 @@
     border-radius: 16px;
     background-color: var(--mainColor);
     transition: .3s;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .card__brand__title {
@@ -92,6 +100,7 @@
 .card__brand__imgLogo {
     max-width: 30%;
     padding: 0 16px;
+    max-height: 100px;
 }
 
 .card__brand__text {

@@ -5,10 +5,11 @@
     --black: #000;
     --red: #C6061F;
     --redHover: #d82b42;
-    --bg: #F4EFE9;
-    --mainColor: #EDE6DE;
+    --bg: #fafafa;
+    --mainColor: #fff;
     --gray: #49454F;
     --white: #fff;
+    --lightGray: #ebebeb;
 }
 
 body {
@@ -43,11 +44,11 @@ a:visited:hover, a:link:hover {
     position: relative;
     border-radius: 50%;
     transition: .3s;
-    background-color: var(--mainColor);
+    
 }
 
 .btn-circle:hover {
-    background-color: var(--white);
+    
 }
 
 .search-icon::after {
@@ -84,14 +85,12 @@ a:visited:hover, a:link:hover {
     align-items: center;
     justify-content: center;
     transition: .3s;
-    background-color: var(--bg);
+    background-color: var(--lightGray);
     color: var(--black);
 }
 
 .btn:hover {
-    
     background-color: var(--white);
-    
 }
 
 .btn-red {

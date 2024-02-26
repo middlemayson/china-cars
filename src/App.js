@@ -4,9 +4,11 @@ import ScrollToTop from './utils/scrollToTop';
 import Header from './components/header/Header';
 import Companies from './pages/company/Companies';
 import CompanyOnePage from './pages/companyOnePage/CompanyOnePage';
+import Footer from './components/footer/Footer';
 
 import './styles/main.css';
 import './styles/desktop.css'
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
           <Route path='/' element={<Companies />} />
           <Route path='/:ident' element={<CompanyOnePage />} />
         </Routes>
+        <Footer />
       </Router> 
     </div>
   );

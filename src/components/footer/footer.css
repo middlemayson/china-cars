@@ -1,0 +1,17 @@
+footer {
+    height: 50px;
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--black);
+}
+
+footer a, footer a:visited {
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    color: var(--white);
+}
